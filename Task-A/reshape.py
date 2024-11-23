@@ -18,3 +18,4 @@ def transpose_from_scratch(lst):
             trans_matrix[j][i] = lst[i][j]
 
     return torch.tensor(trans_matrix)
+    
